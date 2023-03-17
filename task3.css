@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  header {
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(255, 255, 255, 0.1) 100%
+      ),
+      url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+      padding: 100px 0 0;
+      background-size: cover;
+      background-position: 50% 54%;
+  }
+  .Stylish{
+      width: 80%;
+      text-align: center;
+      /* background-color: red; */
+      margin:80px auto 0;
+      padding-top: 90px;
+      font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .Stylish h1{
+      font-size: 90px;
+      color: #212529;
+      margin-bottom: 5px;
+  }
+  .Stylish h3{
+      font-size: 28px;
+      margin-bottom:48px ;
+      color: #212529;
+  }
+  .Stylish a{
+      display: block;
+      text-decoration: none;
+      color: white;
+      width: 175px;
+      height: 65px;
+      background-color: #1D809F;
+      margin: auto;
+      line-height: 65px;
+      border-radius: 4px;
+      font-size: 16px;
+  }
+  .lent1{
+      width: 100%;
+      height: 230px;
+      padding: 120px 0 ;
+  }
+  .stylish1 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+  .stylish1 h2{
+      font-size: 32px;
+  color: #212529;
+  margin-bottom: 8px;
+  }
+  .stylish1 p {
+      font-size: 20px;
+      margin-bottom: 48px;
+      color: #212529;
+      font-weight: 200;
+  }
+  .stylish1 .unsplash{
+      color: #1D809F
+  }
+  .stylish1 .btn{
+      width: 175px;
+      height: 65px;
+      display: block;
+      background-color: #212529;
+      color: white;
+      margin: auto;
+      text-decoration: none;
+      line-height: 65px;
+      border-radius: 4px;
+  }
+  .lent2 {
+      width: 100%;
+      background-color: #1D809F;
+      font-family: 'Source Sans Pro', sans-serif;
+  padding: 120px 0;
+  text-align: center;
+  }
+  .lent2 .services h3{
+      color: #ECB807 ;
+      font-size: 16px;
+      font-weight: 600;
+      text-transform: uppercase;
+  }
+  .lent2 .services h2 {
+      color: #fff;
+      font-size: 48px;
+      margin-bottom: 48px;
+  }
+  .service-offer{
+      width: 80%;
+      margin: auto;
+     
+  }
+  .service-offer .items{
+      width: 24%;
+      display: inline-block;
+      vertical-align: top;
+  }
+  .service-offer .items span{
+      display: block;
+      margin:0 auto 16px;
+      width: 112px;
+      height: 112px;
+      line-height: 121px;
+      border-radius: 50%;
+      background-color: #fff;
+      color: #1D809F;
+  }
+  .service-offer .items span i{
+      font-size: 36px;
+  }
+  .service-offer .items strong 
+  {
+    font-size: 24px;
+    color: #fff;
+
+  }
+  .service-offer .items p {
+    font-size: 16px;
+    color: #ffffffb3;
+    padding:10px 0;
+  }
+  .lent3{
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.1) 0%,
+        rgba(255, 255, 255, 0.1) 100%
+      ),
+      url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+      background-size: cover;
+      background-position: center center;
+  }
+  .lent3 .next-website {
+    padding-top: 200px;
+  }
+ 
+  .lent3 .next-website .web{
+      display: block;
+      text-decoration: none;
+      color: white;
+      width: 175px;
+      height: 65px;
+      background-color: #1D809F;
+      margin: auto;
+      line-height: 65px;
+      border-radius: 4px;
+      font-size: 16px;
+      font-family: 'Source Sans Pro', sans-serif;
+      text-align: center;
+  }
+.lent3 .next-website h2{
+    font-size: 56px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212529;
+    font-weight: 700;
+    text-align: center;
+    width: 34%;
+    margin:0 auto 48px;
+}
+
+.lent4 {
+    width: 100%;
+    height: 1200px; 
+    padding: 100px 0px;
+}
+.lent4 .text{text-align: center;}
+.lent4 .text h3 {
+    color: #ECB807;
+    font-size: 16px;
+    font-family:'Source Sans Pro', sans-serif ;
+}
+.lent4 .text h2{
+    color: #212529;
+    font-size: 48px;
+    font-family:'Source Sans Pro', sans-serif ;
+}
+.container{width: 80%;
+margin:50px auto 0px}
+.container .imga{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    height: 450px;
+
+    margin:-4px -2px;
+    position: relative;
+    clip-path: inset(0);
+    transition: 1s;
+
+}
+.container .imga img {
+    width: 100%;
+    height: 100%;
+}
+.container .hover {
+    position:absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+
+}
+.container .img-text { 
+    position:absolute;
+    bottom: 0px;
+    margin: 50px;
+}
+ .container .img-text h2{
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 600px;
+
+}
+.container .imga:hover{
+
+
+clip-path: inset(32px);
+
+}
+.imga:hover .hover{
+    background-color: #bbceb4df;
+}
+
+    .lent5{
+        padding: 100px 0;
+        width:100%;
+        background-color: #1D809F;
+    }
+    .lent5 .the{
+        text-align: center;
+        
+    }
+    .lent5 .the h2{
+        font-size: 32px;
+        color: #fff;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .lent5 .same{
+        display: inline-block;
+        text-decoration: none;
+        width: 175px;
+        height: 65px;
+        font-size: 16px;
+        border-radius: 4px;
+        line-height: 65px;
+    }
+    .lent5 .the .one{
+        color: black;
+        background-color: #fff;
+        margin-right: 24px;
+    }
+    .lent5 .the .two{
+        color: #fff;
+        background-color: black;
+    }
+
+
+
+.lent6{
+    width: 100%;  
+}
+.lent6 iframe{
+    width: 100%;
+    height: 450px;
+
+}
+.lent7{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.lent7 .icons{
+    margin-bottom: 50px;
+}
+.lent7  .one{
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    line-height: 65px;
+    border-radius: 50%;
+    background-color:#1D809F;
+    color: #fff;
+    text-align: center;
+}
+.lent7 p{
+    color: #6C757D;
+    font-size: 16px;
+    font-family:'Source Sans Pro', sans-serif;
+  
+   
+}
